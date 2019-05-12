@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -22,7 +20,22 @@
 .App-link {
   color: #61dafb;
 }
+table {
+  margin: 10px;
+}
+thead {
+  font-weight: 900;
+}
 
+tbody tr:first-of-type {
+  font-weight: 900;
+  border: 2px solid black;
+  background: #61dafb;
+}
+td {
+  min-width: 200px;
+  margin: 10px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
